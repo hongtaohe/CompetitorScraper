@@ -12,8 +12,8 @@ driver.get("https://www.commafeed.com/#/welcome") #select web domain to scrape f
 username = driver.find_element_by_xpath('//input[@name="username"]') #find username and password inputs
 password = driver.find_element_by_xpath('//input[@name="password"]')
 
-username.send_keys("salemstrider") #USERNAME INPUT
-password.send_keys("yeetusfiend1") #PASSWORD INPUT
+username.send_keys("") #USERNAME INPUT
+password.send_keys("") #PASSWORD INPUT
 
 driver.find_element_by_xpath('//input[@type="submit"]').click() #find submit and click
 
